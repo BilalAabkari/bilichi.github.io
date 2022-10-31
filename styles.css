@@ -7,20 +7,21 @@ body {
 #CV {
     background-color: white;
     margin: 0 auto;
+    width: 99%;
 }
 
 header {
     background-color: #5F5F5F;
     color: white;
-    height: 1000px;
-    display: inline-block;
+    height: 1300px;
+    display: flex;
+    align-items: center;
     width: 100%;
 }
 
 #headerText {
     padding: 2%;
     margin-left: 10%;
-    display: inline-block;
 }
 
 header h1 {
@@ -28,10 +29,9 @@ header h1 {
 }
 
 header img {
-    width: 10%;
+    height: 40%;
     padding: 2%;
-    margin-left: 5%;
-    margin-top: 10%;
+    vertical-align: middle;
 }
 
 .redHeaderSeparator {
@@ -53,8 +53,33 @@ h2 {
     background-color: #5F5F5F;
     padding: 2%;;
     width: 15%;
-
+    color: white;
 }
+
+#leftSection h3 {
+    font-size: 200%;
+    margin-bottom: 0;
+    margin-top: 20%;
+}
+
+.littleRedHeaderSeparator {
+    background-color: #E90000;
+    height: 3px;
+    width: 95%;
+    margin-top: 0;
+    margin-bottom: 6%;
+}
+
+#leftSection ul {
+    list-style-type: none;
+    
+}
+
+#leftSection ul li {
+    font-size: 160%;
+    margin-bottom: 5%;
+}
+
 
 #rightSection {
     padding: 3%;
@@ -72,4 +97,19 @@ h2 {
     width: 90%;
     height: 2px;
     background-color: #E90000;
+}
+
+#education ul li {
+    font-size: 180%;
+    margin-bottom: 5%;
+}
+
+#experience h4 {
+    font-size: 160%;
+    margin-bottom: 0;
+}
+
+#experience p {
+    margin-top: 0;
+    margin-left: 5%;
 }
