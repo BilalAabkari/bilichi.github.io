@@ -1,33 +1,75 @@
 body {
     background-color: rgb(201, 201, 201);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    margin: 0 auto;
 }
 
 #CV {
     background-color: white;
-    width: 60%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header {
-    height: 20%;
     background-color: #5F5F5F;
     color: white;
+    height: 1000px;
+    display: inline-block;
+    width: 100%;
 }
 
 #headerText {
     padding: 2%;
-    margin-left: 30%;
+    margin-left: 10%;
+    display: inline-block;
 }
 
-#profileImage {
-    float: left;
-    width: 12%;
+header h1 {
+    font-size: 400%;
+}
+
+header img {
+    width: 10%;
     padding: 2%;
     margin-left: 5%;
+    margin-top: 10%;
 }
 
 .redHeaderSeparator {
     height: 10px;
+    background-color: #E90000;
+}
+
+#mainContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 230%;
+}
+
+
+#leftSection {
+    background-color: #5F5F5F;
+    padding: 2%;;
+    width: 15%;
+
+}
+
+#rightSection {
+    padding: 3%;
+    width: 70%;
+}
+
+#rightSection p {
+    font-size: 180%;
+    line-height: 150%;
+    text-align: justify;
+    width: 85%;
+}
+
+.largeRedHeaderSeparator {
+    width: 90%;
+    height: 2px;
     background-color: #E90000;
 }
