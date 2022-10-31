@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(201, 201, 201);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#CV {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    height: 20%;
+    background-color: #5F5F5F;
+    color: white;
+}
+
+#headerText {
+    padding: 2%;
+    margin-left: 30%;
+}
+
+#profileImage {
+    float: left;
+    width: 12%;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+.redHeaderSeparator {
+    height: 10px;
+    background-color: #E90000;
+}
