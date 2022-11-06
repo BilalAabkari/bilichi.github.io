@@ -177,14 +177,14 @@ h2 {
 .portfolioItem {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     margin-bottom: 5%;
 }
 
 .portfolioItemImage {
     background-color: #8F0000;
-    width: 700px;
+    width: 30%;
     border-radius: 5%;
 }
 
@@ -198,8 +198,8 @@ h2 {
 }
 
 .portfolioItemText {
-    font-size: 230%;
-    width: 700px;
+    font-size: 180%;
+    width: 500px;
     padding: 5%;
 }
 
