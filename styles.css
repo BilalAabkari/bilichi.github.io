@@ -1,3 +1,8 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(201, 201, 201);
     font-family: sans-serif, Arial, Helvetica, sans-serif;
@@ -14,6 +19,7 @@ nav {
     width: 100%;
     background-color: #E90000;
     position: fixed;
+    z-index: 10;
 }
 
 nav ul {
@@ -81,7 +87,7 @@ h2 {
 #leftSection {
     background-color: #5F5F5F;
     padding: 2%;;
-    width: 15%;
+    width: 20%;
     color: white;
 }
 
@@ -156,4 +162,110 @@ h2 {
 #experience p {
     margin-top: 0;
     margin-left: 5%;
+}
+
+.triangleSeparator {
+    width: 100%;
+}
+
+#portfolio h1 {
+    font-size: 600%;
+    text-align: center;
+    padding: 5%;
+}
+
+.portfolioItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.portfolioItemImage {
+    background-color: #8F0000;
+    width: 800px;
+    border-radius: 5%;
+}
+
+.portfolioItemImage img {
+    padding: 3%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.portfolioItemText {
+    font-size: 300%;
+    width: 800px;
+    padding: 5%;
+}
+
+.portfolioItem h3 {
+    text-align: center;
+}
+
+.portfolioItem a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 140%;
+}
+
+#otherWorksGallery h2{
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+#gallery {
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+.slideElement {
+    display: none;
+    width: 100%;
+}
+
+.slideElement img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    padding: 1%;
+    background-color: #E90000;
+    color: white;
+    font-size: 200%;
+    border-color: #2e2e2e;
+   
+    
+}
+
+.prev:hover, .next:hover {
+    background-color: rgb(209, 209, 209);
+    color: #E90000;
+}
+.prev {
+    right: 100%;
+}
+
+.next {
+    left: 100%;
+}
+
+footer {
+    background-color: #5F5F5F;
+    width: 100%;
+    height: 100px;
+    margin-top: 5%;
 }
