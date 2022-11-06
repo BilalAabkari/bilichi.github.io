@@ -80,7 +80,7 @@ header img {
 }
 
 h2 {
-    font-size: 230%;
+    font-size: 200%;
 }
 
 
@@ -92,7 +92,7 @@ h2 {
 }
 
 #leftSection h3 {
-    font-size: 200%;
+    font-size: 170%;
     margin-bottom: 0;
     margin-top: 20%;
 }
@@ -111,7 +111,7 @@ h2 {
 }
 
 #leftSection ul li {
-    font-size: 160%;
+    font-size: 120%;
     margin-bottom: 5%;
 }
 
@@ -122,7 +122,7 @@ h2 {
 }
 
 #rightSection p {
-    font-size: 180%;
+    font-size: 140%;
     line-height: 150%;
     text-align: justify;
     width: 85%;
@@ -150,12 +150,12 @@ h2 {
 }
 
 #education ul li {
-    font-size: 180%;
+    font-size: 140%;
     margin-bottom: 5%;
 }
 
 #experience h4 {
-    font-size: 160%;
+    font-size: 150%;
     margin-bottom: 0;
 }
 
@@ -169,7 +169,7 @@ h2 {
 }
 
 #portfolio h1 {
-    font-size: 600%;
+    font-size: 400%;
     text-align: center;
     padding: 5%;
 }
@@ -184,7 +184,7 @@ h2 {
 
 .portfolioItemImage {
     background-color: #8F0000;
-    width: 800px;
+    width: 700px;
     border-radius: 5%;
 }
 
@@ -198,8 +198,8 @@ h2 {
 }
 
 .portfolioItemText {
-    font-size: 300%;
-    width: 800px;
+    font-size: 230%;
+    width: 700px;
     padding: 5%;
 }
 
@@ -211,7 +211,7 @@ h2 {
     text-decoration: none;
     color: white;
     text-align: center;
-    font-size: 140%;
+    font-size: 120%;
 }
 
 #otherWorksGallery h2{
