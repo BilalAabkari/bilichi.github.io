@@ -284,3 +284,51 @@ footer {
     height: 100px;
     margin-top: 5%;
 }
+
+@media only screen and (max-width: 800px) {
+
+    header {
+        height: 500px;
+        width: 100%;
+    }
+
+    header img {
+        height: 15%;
+
+    }  
+
+    header h1 {
+        font-size: 200%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #mainContent {
+        display: block;
+    }
+
+
+    #leftSection {
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        z-index: 9;
+        font-size: 0%;
+        max-width: 0%;
+        padding: 0%;
+    }
+
+    #rightSection {
+        width: 95%;
+        padding: 2%;
+    }
+
+    #rightSection p {
+        font-size: 140%;
+        width: 100%;
+    }
+
+
+}
