@@ -236,6 +236,19 @@ h2 {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #E90000;
+}
+
+.imageCaption {
+    background-color: #3d3d3d;
+    padding: 3%;
+    opacity: 0.5;
+    width: 96%;
+    text-align: center;
+    color: white;
+    margin-top: 0;
 }
 
 .prev, .next {
@@ -260,8 +273,10 @@ h2 {
 }
 
 .next {
-    left: 100%;
+    left: 101%;
 }
+
+
 
 footer {
     background-color: #5F5F5F;
