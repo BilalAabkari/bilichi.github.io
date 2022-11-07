@@ -58,7 +58,7 @@ function process_menu_click() {
                 fontSize = fontSize + 1;
                 element.style.fontSize = fontSize + '%';
             }
-        }, 5);
+        }, 1);
     }
     else {
         let offset = 80;
@@ -73,10 +73,9 @@ function process_menu_click() {
                 fontSize = fontSize - 2;
                 element.style.fontSize = fontSize + '%';
             }
-        }, 5);
+        }, 1);
     }
     menu_is_open = !menu_is_open;
-    setTimeout(null, 1000);    
 }
 
 window.onresize = function(){ //This function resets the values to default if we change the size of the window to avoid having to refresh
