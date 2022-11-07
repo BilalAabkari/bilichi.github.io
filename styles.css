@@ -15,6 +15,10 @@ body {
     width: 99%;
 }
 
+#moreInfo {
+    display: none;
+}
+
 nav {
     width: 100%;
     background-color: #E90000;
@@ -301,6 +305,15 @@ footer {
         font-size: 200%;
     }
 
+    #moreInfo {
+        display: block;
+        position: fixed;
+        width: 15%;
+        border-radius: 10%;
+        z-index: 10;
+        cursor: pointer;
+    }
+
     nav {
         display: none;
     }
@@ -311,7 +324,8 @@ footer {
 
 
     #leftSection {
-        position: absolute;
+        position: fixed;
+        top: 0;
         width: 80%;
         height: 100%;
         z-index: 9;
@@ -321,14 +335,85 @@ footer {
     }
 
     #rightSection {
-        width: 95%;
+        width: 90%;
+        text-align: center;
         padding: 2%;
+
     }
 
     #rightSection p {
         font-size: 140%;
         width: 100%;
+        text-align: center;
     }
+
+    .largeRedHeaderSeparator {
+        margin: 0 auto;
+    }
+    
+    .portfolioItem {
+        display: block;
+        margin-bottom: 30%;
+    }
+    
+    .portfolioItemImage {
+        background-color: #8F0000;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 5%;
+    }
+    
+    .portfolioItemText {
+        font-size: 130%;
+        width: 90%;
+        padding: 5%;
+        text-align: center;
+    }
+    
+    .portfolioItem a {
+        font-size: 100%;
+    }
+
+    #otherWorksGallery h2{
+        text-align: center;
+        padding: 5%;
+        margin-bottom: 1%;
+    }
+    
+    #gallery {
+        width: 80%;
+    }
+        
+    .imageCaption {
+        background-color: #3d3d3d;
+        padding: 3%;
+        opacity: 0.5;
+        width: 96%;
+        text-align: center;
+        color: white;
+        margin-top: 0;
+        
+    }
+    
+    .prev, .next {
+        top: 27%;
+        padding: 1%;
+        background-color: #E90000;
+        font-size: 200%;
+    }
+    
+    .prev:hover, .next:hover {
+        background-color: rgb(209, 209, 209);
+        color: #E90000;
+    }
+    .prev {
+        right: 100%;
+    }
+    
+    .next {
+        left: 105%;
+    }
+    
 
 
 }
